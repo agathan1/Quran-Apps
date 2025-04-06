@@ -108,7 +108,7 @@ export default function DetailSurah() {
         </section>
       </div>
 
-      <div>
+      {/* <div>
         <div className="mb-4 text-secondary font-semibold flex justify-between">
           <p className="text-lg my-auto">Qari Bacaan</p>
           <p className="bg-secondary text-primary p-2 rounded-xl text-sm">
@@ -122,7 +122,7 @@ export default function DetailSurah() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
       <CardDetailSurah
         isLoading={isLoading}
